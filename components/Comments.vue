@@ -12,7 +12,7 @@
         </div>
       </div>
       <div class="media mb-4">
-        <img class="d-flex mr-3 rounded-circle" src="http://placehold.it/50x50" alt="">
+        <img class="d-flex mr-3 rounded-circle" src="http://placehold.in/50x50" alt="">
         <div class="media-body">
           <h5 class="mt-0">Дуся Иванова</h5>
           Мое очень важное мнение по данной статье. Мое очень важное мнение по данной статье. Мое очень важное мнение по данной статье. Мое очень важное мнение по данной статье. Мое очень важное мнение по данной статье.
