@@ -1,69 +1,64 @@
-# nuxtjs_blog
+# Проект: nuxtjs_blog
 
-## Build Setup
+![Nuxt.js](https://nuxt.com/assets/design-kit/icon-green.svg)
 
-```bash
-# install dependencies
-$ npm install
+## Описание
+Этот проект является фронтенд-частью веб-приложения, разработанного с использованием [Nuxt.js](https://nuxt.com/). Он предоставляет удобный и отзывчивый пользовательский интерфейс с использованием серверного рендеринга (SSR) и статической генерации (SSG).
 
-# serve with hot reload at localhost:3000
-$ npm run dev
+## Структура проекта
 
-# build for production and launch server
-$ npm run build
-$ npm run start
+- **pages/** — основные страницы приложения.
+- **components/** — переиспользуемые Vue-компоненты.
+- **layouts/** — шаблоны для страниц.
+- **store/** — управление состоянием через Vuex.
+- **assets/** — статические файлы (шрифты, изображения, стили). **static/**
+- **middleware/** — промежуточные обработчики.
+- **plugins/** — дополнительные модули и плагины.
 
-# generate static project
-$ npm run generate
+## Установка и запуск
+
+### 1. Клонирование репозитория
+```sh
+git clone https://github.com/DTigi/nuxtjs_blog.git
+cd nuxtjs_blog
 ```
 
-For detailed explanation on how things work, check out the [documentation](https://nuxtjs.org).
+### 2. Установка зависимостей
+```sh
+npm install
+```
 
-## Special Directories
+### 3. Запуск в режиме разработки
+```sh
+npm run dev
+```
+Сервер разработки будет запущен по адресу `http://localhost:3000`
 
-You can create the following extra directories, some of which have special behaviors. Only `pages` is required; you can delete them if you don't want to use their functionality.
+### 4. Сборка и запуск продакшн-версии
+```sh
+npm run build
+npm run start
+```
 
-### `assets`
+### 5. Генерация статического сайта
+```sh
+npm run generate
+```
 
-The assets directory contains your uncompiled assets such as Stylus or Sass files, images, or fonts.
+## Используемые технологии
+- [Nuxt.js](https://nuxt.com/) — фреймворк на основе Vue.js
+- [Vue.js](https://vuejs.org/) — JavaScript-фреймворк для построения UI
+- [Bootstrap CSS](https://getbootstrap.com/) (или другая библиотека стилей)
+- [Axios](https://axios-http.com/) — для работы с API
 
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/assets).
+## Развертывание
+Этот проект может быть развернут на платформах, поддерживающих статические сайты и Node.js-приложения, таких как:
+- Vercel
+- Netlify
+- Heroku
+- DigitalOcean
 
-### `components`
-
-The components directory contains your Vue.js components. Components make up the different parts of your page and can be reused and imported into your pages, layouts and even other components.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/components).
-
-### `layouts`
-
-Layouts are a great help when you want to change the look and feel of your Nuxt app, whether you want to include a sidebar or have distinct layouts for mobile and desktop.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/layouts).
-
-
-### `pages`
-
-This directory contains your application views and routes. Nuxt will read all the `*.vue` files inside this directory and setup Vue Router automatically.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/get-started/routing).
-
-### `plugins`
-
-The plugins directory contains JavaScript plugins that you want to run before instantiating the root Vue.js Application. This is the place to add Vue plugins and to inject functions or constants. Every time you need to use `Vue.use()`, you should create a file in `plugins/` and add its path to plugins in `nuxt.config.js`.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/plugins).
-
-### `static`
-
-This directory contains your static files. Each file inside this directory is mapped to `/`.
-
-Example: `/static/robots.txt` is mapped as `/robots.txt`.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/static).
-
-### `store`
-
-This directory contains your Vuex store files. Creating a file in this directory automatically activates Vuex.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/store).
+## Контакты
+Если у вас есть вопросы или предложения, свяжитесь со мной:
+- Email: tgnudev@gmail.com
+- Telegram: @dima_tig
